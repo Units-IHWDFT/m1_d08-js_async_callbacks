@@ -43,13 +43,13 @@ Functions can recieve arguments as parameters and return data. It is possible to
 - Variables declared inside a block or function are called **local** or **private**, accessible only within that context.
 - Variables declared outside any block or function are called **global** or **public**, accessible from anywhere in the script.
 
-## Main points: async programming
+## Async programming
 
 - Javascript is a **single-threaded** language ([single-threaded](1)), so it cannot perform multiple tasks at the same time.
 - It is also **synchronous**, since tasks are executed one after the other following the program sequence, where high-cost tasks in terms of time generate natural bottlenecks in the flow.
 - Based on this nature, there are several asynchronous resources available to manage scheduled and/or parallel tasks. Among them, we find non-blocking methods such as `.setTimeout()` or `.setInterval()`.
 
-## Main points: callbacks
+## Callbacks
 
 A **callback** is a function that receives as parameter another function, invoking it inside:
 ````javascript
